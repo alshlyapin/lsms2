@@ -1,0 +1,16 @@
+services:
+  backend_engine:
+    container_name: backend_engine
+    build:
+      context: ./backend_engine
+    ports:
+      - "5000:5000"
+
+  chat_bot:
+    container_name: chat_bot
+    build:
+      context: chat_bot
+    depends_on:
+      - backend_engine
+    ports:
+      - "8501:8501"
