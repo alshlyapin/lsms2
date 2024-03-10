@@ -72,6 +72,10 @@ The backend is designed using the Flask framework. It accepts text input from th
     # for Linux
     curl -X POST http://localhost:5000/predict -d '{"text":"Data Science is"}'
 
+## 9. MLOps
+
+Neptune was used for MLOps.
+
 
 
 
