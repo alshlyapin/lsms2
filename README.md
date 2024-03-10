@@ -2,7 +2,7 @@
 
 ## 1. Introduction
 
-This project provides code for fine-tuning DistilGPT2 and developing a frontend and backend to deploy the fine-tuned model via a web-based UI.
+This project provides code for fine-tuning DistilGPT2 and developing a frontend and backend to deploy the fine-tuned model via a web-based UI. The task is text generation (language modeling).
 
 ![UI](images/ui.png)
 
