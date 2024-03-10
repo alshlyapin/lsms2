@@ -14,7 +14,7 @@ We’ll set up two Docker containers: one for the front-end application, which p
 
 **Step 1**: Create a new directory on your local machine and execute the `git clone` command:
 
-    git clone https://github.com/alshlyapin/lsml2.git
+    git clone git@github.com:alshlyapin/lsms2.git
 
 **Step 2**: Go into `lsml2/backend` directory (instruction for Linux):
 
@@ -56,8 +56,8 @@ The model was fine-tuned on [WikiText-103-raw-v1](https://huggingface.co/dataset
 
 ## 6. Notebooks
 
-- The notebook for training is [here](https://github.com/alshlyapin/lsml2/blob/main/chat_bot/distilgpt2_train.zip).
-- The notebook for inference is [here](https://github.com/alshlyapin/lsml2/blob/main/chat_bot/distilgpt2_inference.zip)
+- The notebook for training is [here](https://github.com/alshlyapin/lsms2/blob/main/chat_bot/distilgpt2_train.zip).
+- The notebook for inference is [here](https://github.com/alshlyapin/lsms2/blob/main/chat_bot/distilgpt2_inference.zip).
 
 You can also download them through UI.
 
@@ -71,11 +71,3 @@ The backend is designed using the Flask framework. It accepts text input from th
 
     # for Linux
     curl -X POST http://localhost:5000/predict -d '{"text":"Data Science is"}'
-
-## 9. MLOps
-
-Neptune was used for MLOps.
-
-
-
-
